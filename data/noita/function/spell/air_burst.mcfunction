@@ -1,0 +1,2 @@
+function noita:util/projectile_tick {speed: 1.1, on_hit: "_", on_tick: "noita:spell/air_burst_tick", particle: "cloud", lifetime: 20, features: "'noita.proj.piercing'", damage_type: "indirect_magic", damage: 0, tick_rate: 1}
+playsound entity.breeze.shoot player @a ~ ~ ~ 0.7

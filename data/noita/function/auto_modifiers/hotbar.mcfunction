@@ -1,0 +1,9 @@
+execute if items entity @s hotbar.0 *[!custom_data~{noita:{}}] run function noita:auto_modifiers/modify {slot: "hotbar.0"}
+execute if items entity @s hotbar.1 *[!custom_data~{noita:{}}] run function noita:auto_modifiers/modify {slot: "hotbar.1"}
+execute if items entity @s hotbar.2 *[!custom_data~{noita:{}}] run function noita:auto_modifiers/modify {slot: "hotbar.2"}
+execute if items entity @s hotbar.3 *[!custom_data~{noita:{}}] run function noita:auto_modifiers/modify {slot: "hotbar.3"}
+execute if items entity @s hotbar.4 *[!custom_data~{noita:{}}] run function noita:auto_modifiers/modify {slot: "hotbar.4"}
+execute if items entity @s hotbar.5 *[!custom_data~{noita:{}}] run function noita:auto_modifiers/modify {slot: "hotbar.5"}
+execute if items entity @s hotbar.6 *[!custom_data~{noita:{}}] run function noita:auto_modifiers/modify {slot: "hotbar.6"}
+execute if items entity @s hotbar.7 *[!custom_data~{noita:{}}] run function noita:auto_modifiers/modify {slot: "hotbar.7"}
+execute if items entity @s hotbar.8 *[!custom_data~{noita:{}}] run function noita:auto_modifiers/modify {slot: "hotbar.8"}

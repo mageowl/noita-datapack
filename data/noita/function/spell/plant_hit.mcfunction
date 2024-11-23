@@ -1,0 +1,1 @@
+$execute if block ^ ^ ^-1 #replaceable run setblock ^ ^ ^-1 $(plant)

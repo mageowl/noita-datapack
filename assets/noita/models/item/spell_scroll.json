@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "noita:item/spell_scroll",
+		"particle": "noita:item/invisible"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "noita:item/gui/background",
+		"particle": "noita:item/gui/background"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": { "uv": [0, 0, 1, 1], "texture": "#0" },
+				"east": { "uv": [0, 0, 1, 1], "texture": "#0" },
+				"south": { "uv": [0, 0, 1, 1], "texture": "#0" },
+				"west": { "uv": [0, 0, 1, 1], "texture": "#0" },
+				"up": { "uv": [0, 0, 1, 1], "texture": "#0" },
+				"down": { "uv": [0, 0, 1, 1], "texture": "#0" }
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"scale": [1.13, 1.13, 1]
+		},
+		"ground": {
+			"scale": [0, 0, 0]
+		}
+	}
+}

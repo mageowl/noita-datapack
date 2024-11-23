@@ -1,0 +1,1 @@
+$execute positioned 0.0 0.1 0.0 run summon marker ^ ^ ^$(speed) {Tags: ["noita.pos"]}

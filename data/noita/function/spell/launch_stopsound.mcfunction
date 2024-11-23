@@ -1,0 +1,1 @@
+stopsound @a * entity.generic.explode

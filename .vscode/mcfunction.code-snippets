@@ -1,0 +1,7 @@
+{
+	"Register Spell": {
+		"scope": "mcfunction",
+		"prefix": "spell",
+		"body": "\"minecraft:$1\": {name: '{\"text\": \"$2\", \"color\": \"$3\"}', description: \"$4\", fn: \"noita:spell/$5\", cooldown: $6, mana_cost: $7}, \\",
+	}
+}

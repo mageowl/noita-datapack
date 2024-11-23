@@ -1,0 +1,2 @@
+function noita:util/projectile {speed: 0.5, tick_rate: 2, on_hit: "noita:spell/spark_bolt_hit", particle: "dust_color_transition{from_color: [0.0, 1.0, 0.5], to_color: [1.0, 0.5, 1.0], scale: 1.0}", lifetime: 20, features: "", damage: 5, damage_type: "indirect_magic"}
+playsound entity.illusioner.cast_spell player @a ^ ^ ^1

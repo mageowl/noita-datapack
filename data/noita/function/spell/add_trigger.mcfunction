@@ -1,0 +1,1 @@
+$data modify entity @e[tag=noita.new, limit=1] data.on_hit set value "noita:spell/add_trigger_hit {next: '$(on_hit)'}"

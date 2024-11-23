@@ -1,0 +1,24 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:paper"
+		},
+		{
+			"item": "minecraft:stick"
+		}
+	],
+	"result": {
+		"id": "minecraft:paper",
+		"components": {
+			"minecraft:custom_data": {
+				"custom_id": "noita:blank_scroll",
+				"noita": {
+					"is_gui": false
+				}
+			},
+			"minecraft:item_name": "\"Blank Scroll\"",
+			"minecraft:custom_model_data": 1
+		}
+	}
+}

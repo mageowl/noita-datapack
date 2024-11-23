@@ -1,0 +1,1 @@
+scoreboard players add @e[tag=noita.new] noita.lifetime 25

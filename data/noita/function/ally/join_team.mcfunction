@@ -1,0 +1,1 @@
+$team join noita.pid.$(pid) @s

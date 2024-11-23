@@ -1,0 +1,7 @@
+data modify entity @e[tag=noita.temp,limit=1] HandItems[0].components."minecraft:lore" append value '""'
+$data modify entity @e[tag=noita.temp,limit=1] HandItems[0].components."minecraft:lore" append value '[{"text": "Spell: ", "color": "gray", "italic": false}, $(name)]'
+$data modify entity @e[tag=noita.temp,limit=1] HandItems[0].components."minecraft:lore" append value '{"text": " $(description)", "color": "dark_gray"}'
+$execute unless data storage noita:temp spell{neg_mana_cost: true} run data modify entity @e[tag=noita.temp,limit=1] HandItems[0].components."minecraft:lore" append value '{"text": " +$(mana_cost) XP Cost", "color": "blue", "italic": false}'
+$execute if data storage noita:temp spell{neg_mana_cost: true} run data modify entity @e[tag=noita.temp,limit=1] HandItems[0].components."minecraft:lore" append value '{"text": " $(mana_cost) XP Cost", "color": "blue", "italic": false}'
+$execute unless data storage noita:temp spell{neg_cooldown: true} run data modify entity @e[tag=noita.temp,limit=1] HandItems[0].components."minecraft:lore" append value '{"text": " +$(cooldown)s Cooldown", "color": "blue", "italic": false}'
+$execute if data storage noita:temp spell{neg_cooldown: true} run data modify entity @e[tag=noita.temp,limit=1] HandItems[0].components."minecraft:lore" append value '{"text": " $(cooldown)s Cooldown", "color": "blue", "italic": false}'

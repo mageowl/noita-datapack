@@ -1,0 +1,25 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "noita:font/cooldown_full.png",
+			"height": 24,
+			"ascent": 4,
+			"chars": ["\uE000\uE001\uE002"]
+		},
+		{
+			"type": "bitmap",
+			"file": "noita:font/cooldown_empty.png",
+			"height": 24,
+			"ascent": 4,
+			"chars": ["\uE003\uE004\uE005"]
+		},
+		{
+			"type": "bitmap",
+			"file": "noita:font/numbers.png",
+			"height": 24,
+			"ascent": 4,
+			"chars": ["0123456789."]
+		}
+	]
+}

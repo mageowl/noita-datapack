@@ -1,0 +1,9 @@
+item modify entity @s hotbar.0 noita:unmark_gui
+item modify entity @s hotbar.1 noita:unmark_gui
+item modify entity @s hotbar.2 noita:unmark_gui
+item modify entity @s hotbar.3 noita:unmark_gui
+item modify entity @s hotbar.4 noita:unmark_gui
+item modify entity @s hotbar.5 noita:unmark_gui
+item modify entity @s hotbar.6 noita:unmark_gui
+item modify entity @s hotbar.7 noita:unmark_gui
+item modify entity @s hotbar.8 noita:unmark_gui

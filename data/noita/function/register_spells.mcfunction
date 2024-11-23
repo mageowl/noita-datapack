@@ -1,0 +1,42 @@
+# Projetile = green, Static Projectile = aqua, Evocation = red, Modifier = yellow, Utility = light_purple
+data merge storage noita:spells { \
+	"minecraft:poppy": {name: '{"text": "Spark Bolt", "color": "green"}', description: "A weak projectile", fn: "noita:spell/spark_bolt", cooldown: 0.25, mana_cost: 5}, \
+	"minecraft:cornflower": {name: '{"text": "Trigger Bolt", "color": "green"}', description: "A spark bolt that casts another spell upon collision", fn: "noita:spell/trigger_bolt", cooldown: 0.3, mana_cost: 10}, \
+	"minecraft:stick": {name: '{"text": "Burst of Air", "color": "green"}', description: "A burst of air capable of pushing entities", fn: "noita:spell/air_burst", cooldown: 0.25, mana_cost: 5}, \
+	"minecraft:end_stone": {name: '{"text": "Black Hole", "color": "green"}', description: "A slow orb of void that eats through all obstacles", fn: "noita:spell/black_hole", cooldown: 1.33, mana_cost: 180}, \
+	"minecraft:clock": {name: '{"text": "Delayed Spellcast", "color": "aqua"}', description: "Casts an extra spell after a short while", fn: "noita:spell/delay", cooldown: 0.17, mana_cost: 20}, \
+	"minecraft:blue_orchid": {name: '{"text": "Energy Orb", "color": "green"}', description: "A slow but powerful orb of energy", fn: "noita:spell/energy_orb", cooldown: 0.3, mana_cost: 30}, \
+	"minecraft:fire_charge": {name: '{"text": "Fireball", "color": "green"}', description: "A quick exploding spell unlike that of a blaze or ghast", fn: "noita:spell/fireball", cooldown: 0.3, mana_cost: 30}, \
+	"minecraft:polished_basalt": {name: '{"text": "Brimstone Explosion", "color": "red"}', description: "A fiery explosion!", fn: "noita:spell/large_explosion", cooldown: 0.5, mana_cost: 60}, \
+	"minecraft:feather": {name: '{"text": "Levatate", "color": "red"}', description: "Applies levatation magic", fn: "noita:spell/levatate", cooldown: 0.25, mana_cost: 5}, \
+	"minecraft:milk_bucket": {name: '{"text": "Cure Effects", "color": "light_purple"}', description: "Washes away all magic affecting you", fn: "noita:spell/clear_effects", cooldown: 0.7, mana_cost: 10}, \
+	"minecraft:cobblestone": {name: '{"text": "Rock", "color": "green"}', description: "Create a mighty rock out of thin air", fn: "noita:spell/rock", cooldown: 0.7, mana_cost: 10}, \
+	"minecraft:shield": {name: '{"text": "Circle of Shielding", "color": "aqua"}', description: "A field of protective magic", fn: "noita:spell/shield", cooldown: 1.0, mana_cost: 20}, \
+	"minecraft:ender_pearl": {name: '{"text": "Teleport Bolt", "color": "green"}', description: "A shortlived projetile that moves you wherever it lands", fn: "noita:spell/teleport_bolt", cooldown: 0.3, mana_cost: 5}, \
+	"minecraft:cookie": {name: '{"text": "Cookie Gun", "color": "green"}', description: "A projetile that gives saturation", fn: "noita:spell/cookie_gun", cooldown: 0.3, mana_cost: 5}, \
+	"minecraft:soul_torch": {name: '{"text": "Touch of Haunting", "color": "red"}', description: "Transmutes everything in a short radius...", fn: "noita:spell/touch_soul", cooldown: 0.4, mana_cost: 40}, \
+	"minecraft:oak_sapling": {name: '{"text": "Ray of Planting (Oak)", "color": "green"}', description: "A beam that places a sapling where it hits", fn: "noita:spell/plant {plant: 'oak_sapling'}", cooldown: 1.2, mana_cost: 5}, \
+	"minecraft:spruce_sapling": {name: '{"text": "Ray of Planting (Spruce)", "color": "green"}', description: "A beam that places a sapling where it hits", fn: "noita:spell/plant {plant: 'spruce_sapling'}", cooldown: 1.2, mana_cost: 5}, \
+	"minecraft:birch_sapling": {name: '{"text": "Ray of Planting (Birch)", "color": "green"}', description: "A beam that places a sapling where it hits", fn: "noita:spell/plant {plant: 'birch_sapling'}", cooldown: 1.2, mana_cost: 5}, \
+	"minecraft:jungle_sapling": {name: '{"text": "Ray of Planting (Jungle)", "color": "green"}', description: "A beam that places a sapling where it hits", fn: "noita:spell/plant {plant: 'jungle_sapling'}", cooldown: 1.2, mana_cost: 5}, \
+	"minecraft:acacia_sapling": {name: '{"text": "Ray of Planting (Acacia)", "color": "green"}', description: "A beam that places a sapling where it hits", fn: "noita:spell/plant {plant: 'acacia_sapling'}", cooldown: 1.2, mana_cost: 5}, \
+	"minecraft:dark_oak_sapling": {name: '{"text": "Ray of Planting (Dark Oak)", "color": "green"}', description: "A beam that places a sapling where it hits", fn: "noita:spell/plant {plant: 'dark_oak_sapling'}", cooldown: 1.2, mana_cost: 5}, \
+	"minecraft:mangrove_propagule": {name: '{"text": "Ray of Planting (Mangrove)", "color": "green"}', description: "A beam that places a sapling where it hits", fn: "noita:spell/plant {plant: 'mangrove_propagule'}", cooldown: 1.2, mana_cost: 5}, \
+	"minecraft:cherry_sapling": {name: '{"text": "Ray of Planting (Cherry)", "color": "green"}', description: "A beam that places a sapling where it hits", fn: "noita:spell/plant {plant: 'cherry_sapling'}", cooldown: 1.2, mana_cost: 5}, \
+	"minecraft:azalea": {name: '{"text": "Ray of Planting (Azalea)", "color": "green"}', description: "A beam that places a sapling where it hits", fn: "noita:spell/plant {plant: 'azalea'}", cooldown: 1.2, mana_cost: 5}, \
+	"minecraft:flowering_azalea": {name: '{"text": "Ray of Planting (Flowering Azalea)", "color": "green"}', description: "A beam that places a sapling where it hits", fn: "noita:spell/plant {plant: 'flowering_azalea'}", cooldown: 1.2, mana_cost: 5}, \
+	"minecraft:bone_meal": {name: '{"text": "Growth", "color": "red"}', description: "Speeds up the growth of crops and saplings for a short time", fn: "noita:spell/bone_meal", cooldown: 2.5, mana_cost: 30}, \
+	"minecraft:amethyst_shard": {name: '{"text": "Double Spell", "color": "light_purple"}', description: "Simultaneously casts 2 spells", fn: "noita:spell/double", cooldown: 0, mana_cost: 0}, \
+	"minecraft:amethyst_cluster": {name: '{"text": "Triple Spell", "color": "light_purple"}', description: "Simultaneously casts 3 spells", fn: "noita:spell/triple", cooldown: 0, mana_cost: 2}, \
+	"minecraft:repeater": {name: '{"text": "Increase Lifetime", "color": "yellow"}', description: "Increases the lifetime of a spell", fn: "noita:spell/lifetime_up", cooldown: 0.8, mana_cost: 20, modifier: true}, \
+	"minecraft:diamond_sword": {name: '{"text": "Increase Damage", "color": "yellow"}', description: "Increases the damage of a spell", fn: "noita:spell/damage_up", cooldown: 0.4, mana_cost: 10, modifier: true}, \
+	"minecraft:dropper": {name: '{"text": "Downward Spellcast", "color": "light_purple"}', description: "Casts an extra spell facing into the ground", fn: "noita:spell/cast_down", cooldown: 0, mana_cost: 20}, \
+	"minecraft:spyglass": {name: '{"text": "Concentrated Light", "color": "green"}', description: "A pinpointed beam of light", fn: "noita:spell/laser", cooldown: -0.2, mana_cost: 30, neg_cooldown: true}, \
+	"minecraft:quartz": {name: '{"text": "Add Trigger", "color": "yellow"}', description: "Makes a projectile cast another spell upon collision", fn: "noita:spell/add_trigger", cooldown: 0, mana_cost: 10, modifier: true}, \
+	"minecraft:comparator": {name: '{"text": "Reduce Lifetime", "color": "yellow"}', description: "Decreases the lifetime of a spell", fn: "noita:spell/lifetime_down", cooldown: -0.4, mana_cost: 5, modifier: true, neg_cooldown: true}, \
+	"minecraft:lapis_block": {name: '{"text": "Add Mana", "color": "light_purple"}', description: "Reduces the XP cost by 30 points", fn: "_", cooldown: 0.8, mana_cost: -30, neg_mana_cost: true, modifier: true}, \
+	"minecraft:string": {name: '{"text": "Apply Velocity", "color": "light_purple"}', description: "An instantaneous shove in the direction cast", fn: "noita:spell/launch", cooldown: 0.2, mana_cost: 7}, \
+	"minecraft:tnt": {name: '{"text": "Dynamite", "color": "green"}', description: "A projectile that bounces around before exploding", fn: "noita:spell/tnt", cooldown: 0.8, mana_cost: 10}, \
+	"minecraft:bone": {name: '{"text": "Summon Skeleton", "color": "red"}', description: "Summons an undead skeleton to fight by your side", fn: "noita:spell/summon_skeleton", cooldown: 3.0, mana_cost: 20}, \
+	"minecraft:rotten_flesh": {name: '{"text": "Summon Zombie", "color": "red"}', description: "Summons an undead zombie to fight by your side", fn: "noita:spell/summon_zombie", cooldown: 3.0, mana_cost: 20}, \
+}

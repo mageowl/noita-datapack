@@ -1,0 +1,39 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:glow_ink_sac"
+		},
+		{
+			"item": "minecraft:blaze_powder"
+		},
+		{
+			"item": "minecraft:experience_bottle"
+		}
+	],
+	"result": {
+		"id": "minecraft:potion",
+		"components": {
+			"minecraft:custom_data": {
+				"custom_id": "noita:ink_bottle",
+				"noita": {
+					"spell_slots": 7,
+					"max_mana": 200,
+					"is_gui": false
+				}
+			},
+			"minecraft:item_name": "\"Ensorceled Ink Bottle\"",
+			"minecraft:potion_contents": {
+				"custom_color": 16753408
+			},
+			"minecraft:hide_additional_tooltip": {},
+			"minecraft:lore": [
+				"\"\"",
+				"{\"text\":\"When used in Inscribing Table\",\"color\": \"gray\",\"italic\":false}",
+				"{\"text\":\" 7 Spell Slots\",\"color\": \"dark_green\",\"italic\":false}",
+				"{\"text\":\" 200 Maximum XP Cost\",\"color\": \"dark_green\",\"italic\":false}"
+			],
+			"minecraft:max_stack_size": 64
+		}
+	}
+}

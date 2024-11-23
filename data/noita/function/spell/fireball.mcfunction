@@ -1,0 +1,2 @@
+function noita:util/projectile {speed: 1, on_hit: "noita:spell/fireball_hit", particle: "flame", lifetime: 20, damage: 6, damage_type: "in_fire", features: "", tick_rate: 2}
+playsound entity.blaze.shoot player @a ~ ~ ~

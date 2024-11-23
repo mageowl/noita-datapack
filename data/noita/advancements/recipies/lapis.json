@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:lapis_lazuli"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"noita:enchanted_ink_bottle",
+			"noita:wand",
+			"noita:experience_bottle"
+		]
+	}
+}

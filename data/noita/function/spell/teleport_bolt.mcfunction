@@ -1,0 +1,2 @@
+function noita:util/projectile {speed: 0.5, tick_rate: 2, on_hit: "noita:spell/teleport_bolt_hit", particle: "minecraft:entity_effect{color: [1.0, 0.0, 1.0, 0.5]}", lifetime: 10, features: "", damage: 0, damage_type: "indirect_magic"}
+playsound entity.enderman.teleport player @a ~ ~ ~

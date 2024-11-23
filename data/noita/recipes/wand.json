@@ -1,0 +1,28 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [" *O", " /*", "*  "],
+	"key": {
+		"*": {
+			"item": "gold_nugget"
+		},
+		"O": {
+			"item": "lapis_lazuli"
+		},
+		"/": {
+			"item": "stick"
+		}
+	},
+	"result": {
+		"id": "minecraft:stick",
+		"components": {
+			"minecraft:custom_data": {
+				"custom_id": "noita:blank_wand",
+				"noita": {
+					"is_gui": false
+				}
+			},
+			"minecraft:item_name": "\"Empty Wand\"",
+			"minecraft:custom_model_data": 1
+		}
+	}
+}

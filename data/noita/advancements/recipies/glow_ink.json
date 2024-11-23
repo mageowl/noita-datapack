@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:glow_ink_sac"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["noita:ensorceled_ink_bottle", "noita:blazing_ink_bottle"]
+	}
+}

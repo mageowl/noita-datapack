@@ -1,0 +1,14 @@
+{
+	"spell.summon": {
+		"sounds": [],
+		"subtitle": "subtitles.noita.summon"
+	},
+	"spell.projectile": {
+		"sounds": [],
+		"subtitle": "subtitles.noita.projectile"
+	},
+	"spell.static_projectile": {
+		"sounds": [],
+		"subtitle": "subtitles.noita.static_projectile"
+	}
+}
