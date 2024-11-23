@@ -1,15 +1,9 @@
 {
 	"type": "crafting_shapeless",
 	"ingredients": [
-		{
-			"item": "minecraft:glow_ink_sac"
-		},
-		{
-			"item": "minecraft:blaze_powder"
-		},
-		{
-			"item": "minecraft:experience_bottle"
-		}
+		"minecraft:glow_ink_sac",
+		"minecraft:blaze_powder",
+		"minecraft:experience_bottle"
 	],
 	"result": {
 		"id": "minecraft:potion",

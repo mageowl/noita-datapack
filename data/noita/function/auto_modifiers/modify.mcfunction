@@ -1,6 +1,6 @@
 data modify storage noita:temp spell set value {}
 
-summon armor_stand 0 0 0 {Tags:["noita.temp"],Invunerable:true}
+summon armor_stand 0 0 0 {Tags:["noita.temp"],Invulnerable:true}
 $item replace entity @e[tag=noita.temp,limit=1] weapon.mainhand from entity @s $(slot)
 
 data modify storage noita:temp id set from entity @e[tag=noita.temp,limit=1] HandItems[0].id

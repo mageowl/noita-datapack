@@ -2,18 +2,10 @@
 	"type": "crafting_shaped",
 	"pattern": ["IQ ", "XXX", "_ _"],
 	"key": {
-		"I": {
-			"item": "minecraft:ink_sac"
-		},
-		"Q": {
-			"item": "minecraft:feather"
-		},
-		"X": {
-			"tag": "minecraft:planks"
-		},
-		"_": {
-			"tag": "minecraft:wooden_slabs"
-		}
+		"I": "minecraft:ink_sac",
+		"Q": "minecraft:feather",
+		"X": "#minecraft:planks",
+		"_": "#minecraft:wooden_slabs"
 	},
 	"result": {
 		"id": "minecraft:glow_item_frame",

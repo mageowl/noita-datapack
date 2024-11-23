@@ -1,18 +1,9 @@
 {
 	"type": "crafting_shapeless",
 	"ingredients": [
-		{
-			"item": "minecraft:glow_ink_sac"
-		},
-		{
-			"item": "minecraft:phantom_membrane"
-		},
-		{
-			"item": "minecraft:ender_eye"
-		},
-		{
-			"item": "minecraft:potion"
-		}
+		"minecraft:ink_sac",
+		"minecraft:lapis_lazuli",
+		"minecraft:glass_bottle"
 	],
 	"result": {
 		"id": "minecraft:potion",
@@ -20,21 +11,21 @@
 			"minecraft:custom_data": {
 				"custom_id": "noita:ink_bottle",
 				"noita": {
-					"spell_slots": 9,
-					"max_mana": 999,
+					"spell_slots": 5,
+					"max_mana": 120,
 					"is_gui": false
 				}
 			},
-			"minecraft:item_name": "\"Ensorceled Ink Bottle\"",
+			"minecraft:item_name": "\"Enchanted Ink Bottle\"",
 			"minecraft:potion_contents": {
-				"custom_color": 16711935
+				"custom_color": 3781552
 			},
 			"minecraft:hide_additional_tooltip": {},
 			"minecraft:lore": [
 				"\"\"",
 				"{\"text\":\"When used in Inscribing Table\",\"color\": \"gray\",\"italic\":false}",
-				"{\"text\":\" 9 Spell Slots\",\"color\": \"dark_green\",\"italic\":false}",
-				"{\"text\":\" 999 Maximum XP Cost\",\"color\": \"dark_green\",\"italic\":false}"
+				"{\"text\":\" 5 Spell Slots\",\"color\": \"dark_green\",\"italic\":false}",
+				"{\"text\":\" 120 Maximum XP Cost\",\"color\": \"dark_green\",\"italic\":false}"
 			],
 			"minecraft:max_stack_size": 64
 		}

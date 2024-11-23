@@ -1,0 +1,7 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": ["minecraft:lapis_lazuli", "minecraft:glass_bottle"],
+	"result": {
+		"id": "minecraft:experience_bottle"
+	}
+}

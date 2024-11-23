@@ -2,15 +2,9 @@
 	"type": "crafting_shaped",
 	"pattern": [" *O", " /*", "*  "],
 	"key": {
-		"*": {
-			"item": "gold_nugget"
-		},
-		"O": {
-			"item": "lapis_lazuli"
-		},
-		"/": {
-			"item": "stick"
-		}
+		"*": "gold_nugget",
+		"O": "lapis_lazuli",
+		"/": "stick"
 	},
 	"result": {
 		"id": "minecraft:stick",

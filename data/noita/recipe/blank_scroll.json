@@ -1,13 +1,6 @@
 {
 	"type": "crafting_shapeless",
-	"ingredients": [
-		{
-			"item": "minecraft:paper"
-		},
-		{
-			"item": "minecraft:stick"
-		}
-	],
+	"ingredients": ["minecraft:paper", "minecraft:stick"],
 	"result": {
 		"id": "minecraft:paper",
 		"components": {
